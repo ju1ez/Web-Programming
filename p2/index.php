@@ -37,12 +37,12 @@
 			<div class="col-md-3">
 				<h4><span class="glyphicon glyphicon-picture"></span> Single Travel Image</h4>
 				<p>Displays information for a single travel image</p>
-				<a href="travelimage.php" class="linkButton"><button type="button" class="btn btn-labeled btn-default"><span class="btn-label"><i class="glyphicon glyphicon glyphicon-link"></i></span>Visit</button></a>
+				<a href="travelimage.php?id=1" class="linkButton"><button type="button" class="btn btn-labeled btn-default"><span class="btn-label"><i class="glyphicon glyphicon glyphicon-link"></i></span>Visit</button></a>
 			</div>
 			<div class="col-md-2">
 				<h4><span class="glyphicon glyphicon-search"></span> Search</h4>
 				<p>Perform search on posts</p>
-				<a href="search.php" class="linkButton"><button type="button" class="btn btn-labeled btn-default"><span class="btn-label"><i class="glyphicon glyphicon glyphicon-link"></i></span>Visit</button></a>
+				<a href="search.php?query=bow" class="linkButton"><button type="button" class="btn btn-labeled btn-default"><span class="btn-label"><i class="glyphicon glyphicon glyphicon-link"></i></span>Visit</button></a>
 			</div>
 		</div>
 	</div>

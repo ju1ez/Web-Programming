@@ -12,13 +12,13 @@
           <li><a href="postlist.php">Post List</a></li>
           <li><a href="singlepost.php?id=1">Single Post</a></li>
           <li><a href="travelimage.php?id=1">Single Work</a></li>
-          <li><a href="search.php">Search</a></li>
+          <li><a href="search.php?query=bow">Search</a></li>
         </ul>
       </li>
     </ul>
-    <form class="navbar-form navbar-right" action="search.php">
+    <form class="navbar-form navbar-right" action="search.php" method="get">
       <div class="form-group">
-        <span class="mySpan">Julia Endress </span><input type="text" class="form-control" placeholder="Search Posts...">
+        <span class="mySpan">Julia Endress </span><input type="text" name="query" class="form-control" placeholder="Search Posts...">
       </div>
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
