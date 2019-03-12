@@ -1,7 +1,6 @@
 <?php
-define('DBHOST', '');
-define('DBNAME', 'travel');
-define('DBUSER', 'root');
-define('DBPASS', '');
-define('DBCONNSTRING','mysql:dbname=travel;charset=utf8mb4;');
+define('DBHOST', 'localhost');
+define('DBUSER', 'jendres8');
+define('DBPASS', 'your_root_password');
+define('DBCONNSTRING','mysql:dbname=jendres8;charset=utf8mb4;');
 ?>
