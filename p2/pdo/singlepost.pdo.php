@@ -6,7 +6,7 @@ function outputTravelImage() {
          $pdo = new PDO(DBCONNSTRING,DBUSER,DBPASS);
          $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                   
-         $sql = 'SELECT * FROM traveluserdetails INNER JOIN travelpost ON traveluserdetails.UID=travelpost.UID WHERE PostID=:id';
+         $sql = 'SELECT DISTINCT tp.Title, tp.Message, tp.PostTime, td.FirstName, td.LastName FROM traveluserdetails td INNER JOIN travelpost tp ON td.UID = tp.UID WHERE tp.PostID =:id';
          $id =  $_GET['id'];
          $statement = $pdo->prepare($sql);
          $statement->bindValue(':id', $id);
@@ -31,7 +31,7 @@ function output($row) {
          <div class="col-md-2">
             <button type="button" class="btn btn-labeled btn-default">
                <span class="btn-label"><i class="glyphicon glyphicon glyphicon-heart"></i></span>
-               <a href="singlelist.php" class="linkButton">Add to Favorites List</a>
+               <span class="linkButton">Add to Favorites List</span>
             </button>
             <br /><br />
             <div class="panel-group">
@@ -63,18 +63,18 @@ try {
    }
 }
 function outputImage($row) {
-   echo '<div class="col-md-4">
+   echo '<div class="col-sm-3">
    <div class="panel panel-default">
-   <div class="panel-body">
-   <a href="images/' . $row['Path'] . '"><img class="img-thumbnail" src="images/' . $row['Path'] . '"></a>
-   <a href="images/' . $row['Path'] . '"><p style = "margin: 2pt;" class="text-center">' . $row['Title'] . '</p></a>
+   <div class="panel-heading" style="margin: 0; padding: 0;">
+   <a href="travelimage.php?id=' . $row['ImageID'] . '"><img style="width: 300px; height: 200px; object-fit: cover;" class="img-responsive center-block" src="images/' . $row['Path'] . '"></a>
+   <a href="travelimage.php?id=' . $row['ImageID'] . '"><p style = "margin: 2pt;" class="text-center">' . $row['Title'] . '</p></a>
    <p class="text-center"><button type="button" class="btn btn-labeled btn-primary btn-sm">
                <span class="btn-label"><i class="glyphicon glyphicon glyphicon-info-sign"></i></span>
-               <a href="#" class="myAnchor">View</a>
+               <a href="travelimage.php?id=' . $row['ImageID'] . '"class="myAnchor">View</a>
    </button>
    <button type="button" class="btn btn-labeled btn-success btn-sm">
                <span class="btn-label"><i class="glyphicon glyphicon glyphicon-heart"></i></span>
-               <a href="#" class="myAnchor">Favorite</a>
+               <span class="myAnchor">Favorite</span>
    </button></p>
    </div></div></div>';
 

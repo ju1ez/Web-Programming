@@ -36,7 +36,7 @@ function output1($row) {
     <div class="col-md-2">
       <button type="button" class="btn btn-labeled btn-default">
          <span class="btn-label"><i class="glyphicon glyphicon glyphicon-gift"></i></span>
-         <a href="singlelist.php" class="linkButton">Add to Favorites</a>
+         <span class="linkButton">Add to Favorites</span>
       </button>
       <br /><br />
    <div class="panel-group">

@@ -15,6 +15,7 @@
 	<div class="container-fluid">
 		<div class="row" id="myRow">
 			<div class="col-md-12">
+				<?php searchHeader(); ?>
                 <?php search(); ?>
 			</div>
 		</div>

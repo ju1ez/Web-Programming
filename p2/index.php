@@ -42,7 +42,7 @@
 			<div class="col-md-2">
 				<h4><span class="glyphicon glyphicon-search"></span> Search</h4>
 				<p>Perform search on posts</p>
-				<a href="search.php?query=bow" class="linkButton"><button type="button" class="btn btn-labeled btn-default"><span class="btn-label"><i class="glyphicon glyphicon glyphicon-link"></i></span>Visit</button></a>
+				<a href="search.php?query=rome" class="linkButton"><button type="button" class="btn btn-labeled btn-default"><span class="btn-label"><i class="glyphicon glyphicon glyphicon-link"></i></span>Visit</button></a>
 			</div>
 		</div>
 	</div>

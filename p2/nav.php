@@ -12,7 +12,7 @@
           <li><a href="postlist.php">Post List</a></li>
           <li><a href="singlepost.php?id=1">Single Post</a></li>
           <li><a href="travelimage.php?id=1">Single Work</a></li>
-          <li><a href="search.php?query=bow">Search</a></li>
+          <li><a href="search.php?query=rome">Search</a></li>
         </ul>
       </li>
     </ul>
