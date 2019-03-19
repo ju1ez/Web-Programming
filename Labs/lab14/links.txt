@@ -1,0 +1,26 @@
+14.1 - Installing MySQL(Already installed)
+
+14.2 - Installing phpMyAdmin (Already installed)
+
+14.3 - Importing Databases 
+
+14.4 - Simple Queries in phpMyAdmin
+
+14.5 - Modifing Database in phpMyAdmin
+
+14.6 - Building Index - Emailed about this
+
+14.7 - Creating a User in myPhpAdmin
+
+14.8 - Accessing the Database
+
+14.9 - https://webdev.cs.kent.edu/~jendres8/lab14/files/lab14-exercise09.php
+
+14.10 - https://webdev.cs.kent.edu/~jendres8/lab14/files/lab14-exercise10.php
+
+14.11 - https://webdev.cs.kent.edu/~jendres8/lab14/files/lab14-exercise11.php
+
+14.12 - https://webdev.cs.kent.edu/~jendres8/lab14/files/lab14-exercise12.php
+
+
+

@@ -1,0 +1,9 @@
+16.1 - https://webdev-stark.cs.kent.edu/~jendres8/lab16/files/lab16-exercise01.php
+
+16.2 - https://webdev-stark.cs.kent.edu/~jendres8/lab16/files/lab16-exercise02.php
+
+16.3 - https://webdev-stark.cs.kent.edu/~jendres8/lab16/files/lab16-exercise03.php
+
+16.4 - https://webdev-stark.cs.kent.edu/~jendres8/lab16/files/lab16-exercise04.php
+
+16.5 - https://webdev-stark.cs.kent.edu/~jendres8/lab16/files/lab16-exercise05.php

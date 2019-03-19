@@ -1,0 +1,17 @@
+12.1 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise01.php
+
+12.2 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise02.php
+
+12.3 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise03.php
+
+12.4 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise04.php
+
+12.5 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise05.php?page=1
+
+12.6 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise06.php
+
+12.7 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise07.php
+
+12.8 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise08.php
+
+12.9 - https://webdev.cs.kent.edu/~jendres8/lab12/files/lab12-exercise09.php
